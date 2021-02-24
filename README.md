@@ -1,29 +1,35 @@
 ---
 component: Home
-title: WatchToken | Create a Widget for your ERC20 Token
-meta:
-    - property: twitter:title 
-      content: WatchToken | Create a Widget for your ERC20 Token
-    - property: og:title
-      content: WatchToken | Create a Widget for your ERC20 Token
-    - property: twitter:description
-      content: Create a Widget for your ERC20 Token and share it with your users. Add your Token to DApp browsers or MetaMask.
-    - property: og:description
-      content: Create a Widget for your ERC20 Token and share it with your users. Add your Token to DApp browsers or MetaMask.
-    - property: og:url
-      content: https://vittominacori.github.io/watch-token/
 ---
 
-# WatchToken
+# BIXE Tokens
 
-Create a Widget for your ERC20 Token. Add your Token to DApp browsers or MetaMask.
+A simple DApp that allows suggesting and adding a token to users of compatible wallets like MetaMask.
 
-Enter your ERC20 Token details, create a Widget and share it with your users.
+## Install dependencies
 
-## Try it
+```bash
+npm install
+```
 
-https://vittominacori.github.io/watch-token/
+## Run DEV server
+
+```bash
+npm run dev
+```
+
+## Build dist
+
+```bash
+npm run build
+```
+
+## Deploy to gh-pages branch
+
+```bash
+npm run deploy
+```
 
 ## License
 
-Code released under the [MIT License](./LICENSE).
+Code released under the [MIT License](https://github.com/vittominacori/watch-token/blob/master/LICENSE).
